@@ -1,0 +1,66 @@
+//
+//  MBVideoPrefixHeader.pch
+//  samllVideoPartner
+//
+//  Created by 李保洋 on 2018/12/18.
+//  Copyright © 2018年 bovin. All rights reserved.
+//
+
+#ifndef MBVideoPrefixHeader_pch
+#define MBVideoPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "MBMacro.h"
+#import "MBConst.h"
+#import "MBBaseNavigationController.h"
+
+
+
+#pragma mark--第三方库---
+#import <MJRefresh.h>
+#import <AFNetworking.h>
+#import <SDWebImage.h>
+#import <Masonry.h>
+#import <MBProgressHUD.h>
+#import <TYAlertController.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+#import <YYText.h>
+#import <IQKeyboardManager.h>
+#import "TZImagePickerController.h"
+#import <MJExtension/MJExtension.h>
+#import <Reachability.h>
+#import <Bugly/Bugly.h>
+
+#import <LanSongEditorFramework/LanSongEditor.h>
+
+
+#pragma mark--工具---
+#import "MBExtension.h"
+#import "MBUserManager.h"
+#import "MBVerigiyButton.h"
+#import "MBWechatApiManager.h"
+#import "MBProgressHUD+Custom.h"
+#import "MBTZImagePicker.h"
+#import "MBTools.h"
+
+/** 网络请求库*/
+#import "MBAppEnviromentConfig.h"
+#import "RequestUtil.h"
+#import "MBRequestAPI.h"
+/** 多类目选择库*/
+#import "MBSegmentStyle.h"
+#import "MBSegmentScrollView.h"
+#import "MBPageContentView.h"
+
+
+/** 蓝松封装*/
+
+/** 美恰客服*/
+//#import <MeiQiaSDK/MQManager.h>
+//#import "MQChatViewManager.h"
+
+
+
+#endif /* MBVideoPrefixHeader_pch */
